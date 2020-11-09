@@ -254,7 +254,6 @@ public abstract class ComplexProperty implements ISelfValidate, ComplexFunctionD
     if (!reader.isEmptyElement()) {
       do {
         reader.read();
-
         switch (reader.getNodeType().nodeType) {
           case XmlNodeType.START_ELEMENT:
             if (!this.tryReadElementFromXml(reader)) {

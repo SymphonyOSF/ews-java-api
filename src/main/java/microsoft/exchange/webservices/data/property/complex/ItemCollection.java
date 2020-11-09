@@ -101,6 +101,14 @@ public final class ItemCollection<TItem extends Item> extends ComplexProperty
       reader.read();
     }
   }
+  
+  public List<TItem> getItems() {
+    return items;
+  }
+
+  public void setItems(List<TItem> items) {
+    this.items = items;
+  }
 
   /**
    * Gets the total number of item in the collection.

@@ -141,7 +141,6 @@ public class EwsServiceXmlReader extends EwsXmlReader {
     TServiceObject serviceObject;
 
     this.readStartElement(XmlNamespace.Messages, collectionXmlElementName);
-
     if (!this.isEmptyElement()) {
       do {
         this.read();
