@@ -35,6 +35,7 @@ import microsoft.exchange.webservices.data.core.service.item.Item;
 import microsoft.exchange.webservices.data.core.enumeration.notification.EventType;
 import microsoft.exchange.webservices.data.core.enumeration.misc.ExchangeVersion;
 import microsoft.exchange.webservices.data.core.enumeration.service.FileAsMapping;
+import microsoft.exchange.webservices.data.core.enumeration.search.ConversationQueryTraversal;
 import microsoft.exchange.webservices.data.core.enumeration.search.ItemTraversal;
 import microsoft.exchange.webservices.data.core.enumeration.property.MailboxType;
 import microsoft.exchange.webservices.data.core.enumeration.service.MeetingRequestsDeliveryScope;
@@ -273,6 +274,8 @@ public final class EwsUtilities {
                   buildEnumDict(WellKnownFolderName.class));
               enumDicts.put(ItemTraversal.class,
                   buildEnumDict(ItemTraversal.class));
+              enumDicts.put(ConversationQueryTraversal.class,
+                  buildEnumDict(ConversationQueryTraversal.class));
               enumDicts.put(FileAsMapping.class,
                   buildEnumDict(FileAsMapping.class));
               enumDicts.put(EventType.class,

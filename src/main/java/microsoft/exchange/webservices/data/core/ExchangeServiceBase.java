@@ -103,7 +103,7 @@ public abstract class ExchangeServiceBase implements Closeable {
   /**
    * The trace enabled.
    */
-  private boolean traceEnabled;
+  private boolean traceEnabled = true;
 
   /**
    * The trace flags.

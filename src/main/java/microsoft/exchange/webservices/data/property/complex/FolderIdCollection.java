@@ -37,8 +37,20 @@ public final class FolderIdCollection extends ComplexPropertyCollection<FolderId
   /**
    * Initializes a new instance of the <see cref="FolderIdCollection"/> class.
    */
-  protected FolderIdCollection() {
+//  protected FolderIdCollection() {
+//    super();
+//  }
+  
+  public FolderIdCollection() {
     super();
+  }
+  
+  public FolderIdCollection(Iterable<FolderId> folderIds) throws Exception {
+    if (folderIds != null) {
+      for (FolderId folderId : folderIds) {
+        this.add(folderId);
+      }
+    }
   }
 
   /**

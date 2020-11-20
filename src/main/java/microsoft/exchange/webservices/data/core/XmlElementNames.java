@@ -4801,5 +4801,19 @@ public class XmlElementNames {
   public static final String TotalConversationsInView = "TotalConversationsInView";
 
   public static final String IndexedOffset = "IndexedOffset";
+  
+  public static final String ConversationShape = "ConversationShape";
+  
+  public static final String MailboxScope = "MailboxScope";
+  
+  //GetConversationItems
+  public static final String FoldersToIgnore = "FoldersToIgnore";
+  public static final String ParentInternetMessageId = "ParentInternetMessageId";
+  public static final String ConversationNode = "ConversationNode";
+  public static final String ConversationNodes = "ConversationNodes";
+  public static final String MaxItemsToReturn = "MaxItemsToReturn";
+  public static final String GetConversationItems = "GetConversationItems";
+  public static final String GetConversationItemsResponse = "GetConversationItemsResponse";
+  public static final String GetConversationItemsResponseMessage = "GetConversationItemsResponseMessage";
 
 }
